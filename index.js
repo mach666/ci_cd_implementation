@@ -1,6 +1,6 @@
 const EXPRESS=require('express')
 const APP=EXPRESS()
-const PORT=8000
+const PORT=8000||process.env.PORT
 
 APP.get('/',(req,res)=>{
     res.send("This is get request at CI&CD implmentation")
