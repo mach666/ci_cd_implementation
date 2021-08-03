@@ -3,7 +3,7 @@ const APP=EXPRESS()
 const PORT=process.env.PORT||8000
 
 APP.get('/',(req,res)=>{
-    res.send("This is get request at CI&CD implmentation with CD automated")
+    res.send("This is get request at CI&CD implmentation with CD automated via HEROKU")
 })
 
 APP.listen(PORT,()=>{
