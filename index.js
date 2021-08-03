@@ -3,7 +3,7 @@ const APP=EXPRESS()
 const PORT=8000
 
 APP.get('/',(req,res)=>{
-    res.send("This is get request at CI&CD")
+    res.send("This is get request at CI&CD implmentati")
 })
 
 APP.listen(PORT,()=>{
