@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: PRINCE YADAV/heroku-deploy@v7.47.0
+      - uses: mach666/heroku-deploy@v7.47.0
         with:
           heroku_api_key:  ${{secrets.HEROKU_API_KEY}},
           heroku_app_name: "cd-ci-implementation"
